@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hire Me – Mahesh Shinde</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 650px;
+      margin: 50px auto;
+      padding: 30px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: crimson;
+      margin-bottom: 30px;
+    }
+
+    form .field {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    button {
+      background: crimson;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #a80000;
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .nav-link {
+      color: #444;
+      font-weight: 500;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+      color: crimson;
+    }
+
+    @media screen and (max-width: 600px) {
+      .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Hire Me – Mahesh Shinde</h2>
+
+    <form action="https://formsubmit.co/mahesh08082004@gmail.com" method="POST">
+      <!-- Hidden FormSubmit Configs -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html">
+
+      <div class="field">
+        <label for="name">Your Full Name*</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="field">
+        <label for="company">Company Name*</label>
+        <input type="text" id="company" name="company" required />
+      </div>
+
+      <div class="field">
+        <label for="email">Email Address*</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="field">
+        <label for="job">Tell Me About the Opportunity*</label>
+        <textarea id="job" name="job" required></textarea>
+      </div>
+
+      <div class="field">
+        <label for="tech">Preferred Tech Stack / Skills</label>
+        <input type="text" id="tech" name="tech" placeholder="e.g., React, SQL, Java" />
+      </div>
+
+      <div class="field">
+        <label for="message">Additional Message</label>
+        <textarea id="message" name="message" placeholder="Anything else you'd like me to know..."></textarea>
+      </div>
+
+      <div style="text-align:center;">
+        <button type="submit">Submit</button>
+      </div>
+
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">&larr; Back to Portfolio</a>
+        <a href="Mahesh_CV.pdf" class="nav-link" target="_blank">→ View CV</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
